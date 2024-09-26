@@ -1,0 +1,27 @@
+#preto {
+  background-color: #000;
+}
+
+.vermelho {
+  background-color: #f00;
+}
+
+#amarelo {
+  background-color: #ffcc00;
+}
+
+#verde {
+  background-color: #0f0;
+}
+
+#branco {
+  background-color: #fff;
+}
+
+.horizontal {
+  width: 100px;
+}
+
+.bandeira {
+  border: 1px solid #000;
+}

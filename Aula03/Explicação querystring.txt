@@ -1,0 +1,17 @@
+http://127.0.0.1:5500
+
+/servidor/criar
+
+?
+
+nome=Bill
+&
+sobrenome=S%C3%A1
+&
+aceito=sim
+&
+email=bora%40bil.com
+&
+senha=GOIABA
+&
+Idade=55

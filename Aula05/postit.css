@@ -1,0 +1,54 @@
+body {
+  font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  /* height: 80vh; */
+  align-content: start;
+
+  background-color: rgb(68, 137, 71);
+  background-image: url("https://dogscare.com.br/wp-content/uploads/2018/03/cachorrinho-ideal-601x400.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.nota {
+  height: 80px;
+  width: 80px;
+  border: 1px solid #999;
+  margin: 5px;
+  box-shadow: 2px 2px 4px #fff;
+  background-color: rgb(232, 245, 88);
+  font-size: 9pt;
+  padding: 4px;
+  text-align: center;
+}
+
+.rosa {
+  background-color: rgb(250, 182, 249);
+}
+
+.azul {
+  background-color: rgb(120, 180, 230);
+}
+
+.laranja {
+  background-color: rgb(255, 198, 93);
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 4px rgb(5, 119, 5);
+}
+
+.adicionar {
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 2px;
+}

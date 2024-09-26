@@ -1,0 +1,40 @@
+body {
+  font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+pp {
+  background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  opacity: 0.5;
+}
+
+p {
+  background-color: #8a817b;
+  background-image: url("https://images.pexels.com/photos/235986/pexels-photo-235986.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  color: #fff;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#redonda {
+  background-color: aqua;
+  border: 2px solid #8a817b;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+  background-image: url("https://www.creativefabrica.com/wp-content/uploads/2021/07/31/Sunburst-blue-Background-Wallpaper-Free-Graphics-15314141-1-1-580x352.jpg");
+}
+
+#pessoa {
+  background-image: url(https://this-person-does-not-exist.com/img/avatar-gene6c251ed6c5f50ccae6cdac121c761f0.jpg);
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid chocolate;
+  border-radius: 50px;
+  margin-left: 100px;
+}

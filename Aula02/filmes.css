@@ -1,0 +1,13 @@
+h1 {
+  color: brown;
+}
+img {
+  height: 80px;
+  width: 54px;
+  border: 5px solid green;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+div {
+  background-color: aquamarine;
+}

@@ -1,0 +1,7 @@
+main {
+  display: flex;
+}
+
+span {
+  text-decoration: line-through;
+}

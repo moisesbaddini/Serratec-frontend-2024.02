@@ -1,0 +1,26 @@
+div,
+h1,
+p {
+  background-color: blue;
+  margin: 10px;
+}
+
+p {
+  background-color: rgb(202, 137, 51);
+}
+
+.container {
+  width: 300px;
+}
+
+span {
+  background-color: yellow;
+}
+
+a {
+  background-color: aqua;
+}
+
+.linha {
+  display: grid;
+}

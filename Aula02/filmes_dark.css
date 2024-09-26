@@ -1,0 +1,17 @@
+body {
+  background-color: darkslategrey;
+}
+h1 {
+  color: blanchedalmond;
+}
+img {
+  height: 80px;
+  width: 54px;
+  border: 5px dotted rgb(68, 0, 255);
+  margin-top: 10px;
+  margin-left: 5px;
+}
+div {
+  background-color: aqua;
+  display: inline-block;
+}

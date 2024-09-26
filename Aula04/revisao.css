@@ -1,0 +1,21 @@
+/* tag */
+
+li {
+  background-color: blanchedalmond;
+}
+
+/* #id */
+
+#enviar {
+  background-color: aquamarine;
+  color: darkcyan;
+  border: 1px solid #00d;
+  border-radius: 3px;
+}
+
+/* .classe */
+
+.curto {
+  font-weight: bold;
+  color: brown;
+}

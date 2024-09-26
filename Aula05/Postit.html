@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mural de estudos</title>
+
+    <link rel="stylesheet" href="postit.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>Mural de estudos</h1>
+    </header>
+
+    <div class="adicionar">
+      <label for="cor">Cor</label>
+      <select name="cor" id="cor">
+        <option value="amarelo">Amarelo</option>
+        <option value="azul">Azul</option>
+        <option value="rosa">Rosa</option>
+      </select>
+
+      <!-- <input type="text" name="texto" id="texto" /> -->
+
+      <textarea name="texto" id="texto" rows="2"></textarea>
+
+      <button onclick="criarNota()">Criar</button>
+    </div>
+
+    <div class="container"></div>
+
+    <script src="postit.js"></script>
+  </body>
+</html>

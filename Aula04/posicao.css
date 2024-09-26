@@ -1,0 +1,30 @@
+.quadrado {
+  width: 100px;
+  height: 100px;
+  background-color: cornflowerblue;
+}
+
+/*
+.quadrado {
+  position: relative;
+  top: -20px;
+  left: 10px;
+}
+
+.quadrado {
+  position: absolute;
+  right: 10px;
+  top: 50px;
+}
+
+.quadrado {
+  position: fixed;
+}
+*/
+
+.quadrado {
+  position: sticky;
+  height: 30px;
+  width: 100%;
+  top: 0px;
+}

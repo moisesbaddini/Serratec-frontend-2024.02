@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulários</title>
+
+    <link rel="stylesheet" href="formulario.css" />
+  </head>
+  <body>
+    <h2>Cadastro de alunos</h2>
+
+    <form action="servidor/criar" method="post">
+      <div>
+        <label for="nome">Nome do aluno: </label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" />
+      </div>
+      <div>
+        <label for="sobrenome">Sobrenome: </label>
+        <input type="text" name="sobrenome" id="sobrenome" value="Sá" />
+      </div>
+      <div><input type="checkbox" name="aceito" value="sim" id="aceito" /> Eu aceito o contrato</div>
+      <div>Email: <input type="email" name="email" id="email" /></div>
+      <div>Senha: <input type="password" name="senha" id="senha" /></div>
+      <div>Idade: <input type="number" name="Idade" id="idade" /></div>
+      <button>Enviar</button>
+    </form>
+  </body>
+</html>
