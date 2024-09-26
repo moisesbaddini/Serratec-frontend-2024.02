@@ -1,0 +1,11 @@
+p[style] {
+  color: crimson;
+}
+
+input[placeholder] {
+  background-color: burlywood;
+}
+
+input[type="number"] {
+  background: blue;
+}
