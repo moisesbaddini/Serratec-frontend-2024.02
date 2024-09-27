@@ -15,11 +15,25 @@
   transition-delay: 0s;
   /* Curva do movimento */
   transition-timing-function: linear;
+
+  /* É importante definir o valor inicial da prop que quero transitar */
+  left: 0px;
+
+  /* atalho para as propriedades acima em uma única regra */
+  transition: left 5s ease;
+
+  /* Movimentar no documento */
+  position: relative;
 }
 
-.bola:hover {
+.bola:hover,
+.movimento {
   background-color: red;
   cursor: pointer;
+}
+
+.andar {
+  left: 150px;
 }
 
 a:visited {
