@@ -32,7 +32,8 @@
   cursor: pointer;
 }
 
-.andar {
+/* Classe de composição */
+.bola.andar {
   left: 150px;
 }
 
@@ -47,4 +48,18 @@ a:active {
 
 h1:hover {
   cursor: progress;
+}
+
+.margem {
+  margin: 10px;
+}
+
+/* Botão que vai girar */
+
+#giro {
+  transition: transform 3s ease;
+}
+
+#giro.acontecer {
+  transform: rotate(90deg);
 }

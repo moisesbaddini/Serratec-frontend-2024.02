@@ -1,5 +1,7 @@
 function posicao() {
   let bola = document.querySelector(".bola");
   bola.classList.toggle("andar");
-  bola.classList.toggle("movimento");
+
+  let giro = document.getElementById("giro");
+  giro.classList.toggle("acontecer");
 }
