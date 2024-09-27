@@ -1,0 +1,36 @@
+.bola {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(247, 230, 40);
+  border: 2px solid #000;
+  border-radius: 50%;
+
+  /* regras da transição */
+
+  /* Qual propriedade vai receber o efeito */
+  transition-property: background-color;
+  /* Duração */
+  transition-duration: 5s;
+  /* Quanto tempo antes de iniciar - atraso */
+  transition-delay: 0s;
+  /* Curva do movimento */
+  transition-timing-function: linear;
+}
+
+.bola:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+a:visited {
+  color: green;
+  font-weight: bold;
+}
+
+a:active {
+  background-color: purple;
+}
+
+h1:hover {
+  cursor: progress;
+}
