@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interceptar</title>
+  </head>
+  <body>
+    <form onsubmit="enviar(event)">
+      <label for="email"></label>
+      <input type="email" name="email" id="email" />
+      <button>Enviar</button>
+    </form>
+
+    <script>
+      function enviar(evento) {
+        evento.preventDefault();
+
+        let form = new FormData(evento.target);
+        let nome = form.get("nome");
+        let email = form.get("email");
+
+        console.log(form.get("sobrenome"));
+        console.log(form.get("cidade"));
+
+        localStorage.setItem("nome", nome);
+      }
+    </script>
+  </body>
+</html>

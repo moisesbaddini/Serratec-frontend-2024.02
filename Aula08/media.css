@@ -1,0 +1,49 @@
+nav {
+  background-color: coral;
+}
+
+@media print {
+  nav {
+    color: blue;
+  }
+}
+
+.container {
+  background-color: bisque;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  background-color: aquamarine;
+  margin: 5px;
+
+  /* São abreviados em flex: 1 1 calc */
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: calc(33.333% - 20px);
+}
+
+/* para telas de 0px até 600px */
+
+@media (max-width: 600px) {
+  nav {
+    background-color: yellow;
+  }
+
+  .lg {
+    display: none;
+  }
+
+  .item {
+    background-color: blueviolet;
+    flex: 1 1 100%;
+  }
+}
+
+/* break points */
+@media (min-width: 601px) {
+  .sm {
+    display: none;
+  }
+}

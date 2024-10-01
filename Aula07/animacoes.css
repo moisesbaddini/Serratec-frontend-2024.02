@@ -1,0 +1,26 @@
+@keyframes mudacor {
+  from {
+    background-color: yellow;
+    left: 0;
+    transform: scale(0);
+  }
+
+  to {
+    background-color: red;
+    left: 200px;
+    transform: scale(1.5);
+  }
+}
+
+.bola {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(247, 230, 40);
+  border: 2px solid #000;
+  border-radius: 50%;
+
+  position: relative;
+
+  /* Animações */
+  animation: mudacor 5s 1 alternate;
+}
